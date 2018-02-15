@@ -40,5 +40,14 @@ bower.json
 # Ignore pow environment settings
 .powenv
 
+# Rails additions
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/node_modules
+/yarn-error.log
+
 # Ignore Byebug command history file.
 .byebug_history
